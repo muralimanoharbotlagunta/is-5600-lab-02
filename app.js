@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     deleteButton.addEventListener('click', (event) => {
         // we don't want the form to submit (since we will lose form state)
         event.preventDefault();
+        
 
         // find the index of the user in the data array 
         const userId = document.querySelector('#userID').value;
